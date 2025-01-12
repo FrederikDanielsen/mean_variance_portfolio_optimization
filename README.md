@@ -1,5 +1,3 @@
-Below is a sample **README** file that you can adapt and include with your repository. It provides a concise overview of how the notebook works and what it accomplishes.
-
 **DISCLAIMER**: Most of this code was written using ChatGPT.
 
 ---
