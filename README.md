@@ -1,4 +1,3 @@
-**DISCLAIMER**: Most of this code was written using ChatGPT.
 
 ---
 
@@ -74,13 +73,15 @@ pip install numpy pandas matplotlib scipy squarify tqdm
 ## Usage
 1. **Clone or download** this repository to your local environment.
 2. Install the **Python** dependencies via `pip` or `conda`.
-3. **Open the Jupyter Notebook** (e.g., `mean_variance_portfolio_optimization.ipynb`) in Jupyter Lab or Notebook.
+3. **Open the Jupyter Notebook** (e.g., `MPT-optimization.ipynb`) in Jupyter Lab or Notebook.
 4. **Run the cells** sequentially:
    - Adjust any input variables (e.g., target return, data paths).
    - Follow the inline comments to switch between a target-return portfolio or the maximum Sharpe ratio portfolio.
    - Observe the outputs: correlation matrix, efficient frontier, portfolio composition, and performance metrics.
 
 ## Notes & Disclaimers
+- **ChatGPT**: Most of this code was written using ChatGPT.
+- **Data**: The repository includes two data files covering deifferent amount of historical data from Nordnet (Indices) and Coingecko (Cryptocurrencies). However, feel free to use your own data. Just make sure it is in the correct format (see the Nordnet data as an example).
 - **Data Quality**: The notebook’s output depends heavily on the quality and coverage of your input CSV data.  
 - **Historical Performance ≠ Future Results**: The approach is purely historical and does not guarantee future performance.  
 - **Parameter Sensitivity**: Settings such as `risk_free_rate`, `max_assets`, or even the smoothing (rounding) can materially affect results. Experiment accordingly.  
@@ -90,5 +91,3 @@ pip install numpy pandas matplotlib scipy squarify tqdm
 If you have questions, suggestions, or improvements, feel free to open an issue or contact me via danielsen.contact@gmail.com
 
 ---
-
-Feel free to modify this **README** to match your specific workflow, folder structure, or desired level of detail.
